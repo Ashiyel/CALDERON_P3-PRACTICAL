@@ -9,7 +9,7 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- External CSS -->
-<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -18,63 +18,60 @@
 <!-- BACK BUTTON -->
 <button class="back-btn" onclick="history.back()">← Back</button>
 
-<header>
+<!-- HEADER -->
+<header class="text-center">
     <h1>PRACTICAL 3</h1>
     <p class="header-desc">Modern Web Development</p>
 </header>
 
+<!-- NAVIGATION -->
 <nav>
     <a href="#">Home</a>
     <a href="#">Crew</a>
     <a href="#">Adventure</a>
 </nav>
 
-<div class="container-custom">
+<!-- MAIN CONTAINER -->
+<div class="container mt-4">
 
-    <!-- SIDEBAR 
-    <div class="sidebar">
-        <h3>Bootstrap Cards</h3>
+    <div class="row g-4">
 
-        <p><strong>Features:</strong></p>
-        <ul>
-            <li>Responsive Grid</li>
-            <li>Pre-built Cards</li>
-            <li>Mobile Friendly</li>
-            <li>Fast Development</li>
-        </ul>
-
-        <p><strong>Tip:</strong></p>
-        <p>
-            Bootstrap makes layouts easier by using rows and columns.
-        </p>
-    </div>
-
-         SIDEBAR -->
-
-
-    <!-- MAIN CONTENT -->
-    <div class="content">
-
-        <div class="container mt-4">
-            <div class="row g-4">
-
-<h1 class=""> Modern Web Development</h1>
-
-<h1 class=>Modern web development focuses on building fast, responsive, and user-friendly websites and applications using a combination of technologies like HTML, CSS, and JavaScript. Developers often use frameworks such as React, Angular, or Vue to create dynamic interfaces, while backend technologies like Node.js, Python, or PHP handle server-side logic. Today’s web development also emphasizes mobile responsiveness, accessibility, security, and cloud integration to deliver seamless experiences across different devices and platforms.
-</h1>
-
-
-               
-
-
-
-
+        <!-- MAIN CONTENT -->
+        <div class="col-lg-8">
+            <div class="content">
+                <h2>Modern Web Development</h2>
+                <p>
+                    Modern web development focuses on building fast, responsive, and user-friendly websites and applications using technologies such as HTML, CSS, and JavaScript. Developers often use frameworks like React, Angular, or Vue to create dynamic interfaces, while backend technologies like Node.js and Python handle server-side logic.
+                </p>
+                <p>
+                    Today’s web development emphasizes mobile responsiveness, accessibility, and performance optimization. With the help of CSS frameworks like Bootstrap, developers can quickly design responsive layouts and reusable components.
+                </p>
             </div>
         </div>
+
+        <!-- SIDEBAR -->
+        <div class="col-lg-4">
+            <div class="sidebar">
+                <h3>Bootstrap Features</h3>
+
+                <ul>
+                    <li>Responsive Grid System</li>
+                    <li>Pre-built Components</li>
+                    <li>Mobile-first Design</li>
+                    <li>Faster Development</li>
+                </ul>
+
+                <p>
+                    Bootstrap makes layouts easier by using rows and columns to organize content efficiently.
+                </p>
+            </div>
+        </div>
+
     </div>
 
 </div>
 
+<!-- FOOTER -->
 <footer>
     <p>CALDERON, ANGEL | TC02 - IT0043L | June 16, 2026</p>
 </footer>
